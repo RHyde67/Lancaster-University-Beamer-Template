@@ -1,0 +1,98 @@
+\documentclass{beamer}
+\usepackage{mathptmx}
+\usepackage[scaled=0.9]{helvet}
+\usepackage{courier}
+\usetheme{CambridgeUS}
+\usepackage{textpos}
+\usepackage{calc}
+\graphicspath{{figures/}}
+
+
+
+
+\title[Title: Title Used for Footer] % (optional, only for long titles)
+{Title text goes here {\em Italics} }
+\subtitle{Write some stuff for a sub-title}
+\author[Author's Name] % (optional, for multiple authors)
+{Author's name~\inst{1} ~\inst{2}}
+\institute[Institution] % (optional)
+{
+  \inst{1}%
+	First Association
+  \and
+  \inst{2}%
+    Second association
+}
+\date[Date] % (optional)
+{Reference to Conference etc}
+\subject{Insert Main Subject}
+
+
+
+
+% position the logo
+\addtobeamertemplate{frametitle}{}{%
+	\begin{textblock*}{\paperwidth}(1cm,1cm)
+		Something to include on every page?
+		\includegraphics[height=1cm,width=1cm,keepaspectratio]{Cat.jpeg}
+	\end{textblock*}}
+
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+\section{Section Name}
+	\begin{frame}{
+		\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		The title of the frame
+	}
+		Section contents
+	\end{frame}
+
+\section{Section 1}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Section 1}
+		Section 1 text
+	\end{frame}
+
+\section{Section 2}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Section 2}
+		Section 2 text
+	\end{frame}
+\subsection{Sub-Section 2.1}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Sub-Section 2.1}
+		Sub-Section 2.1 text
+	\end{frame}
+\subsection{Sub-Section 2.2}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Sub-Section 2.2}
+		Sub-Section 2.2 text
+	\end{frame}
+
+\section{Section 3}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Section 3}
+		Section 3 text
+	\end{frame}
+\subsection{Sub-Section 3.1}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Sub-Section 3.1}
+		Sub-Section 3.1 text
+	\end{frame}
+\subsection{Sub-Section 3.2}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Sub-Section 3.2}
+		Sub-Section 3.2 text
+	\end{frame}
+\subsection{Sub-Section 3.3}
+	\begin{frame}{\includegraphics[height=0.4cm,width=0.4cm,keepaspectratio]{CrestTrans.png}
+		Sub-Section 3.3}
+		Sub-Section 3.3 text
+	\end{frame}
+
+
+\end{document}
